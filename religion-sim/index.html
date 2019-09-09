@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/023a87ee37.js"></script>
+  <title>Build Your Empire</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <div class="tooltip">
+            <span class="tooltiptext">$100. Generates $1 / minute</span>
+          </div>
+      <h1>Max's Building Sim 1.0</h1>
+    </div>
+    <div class="wallet">
+      <h3>Cash:</h3>
+      <h3>
+        <div class="cash" id="cash">
+          $1000
+        </div>
+      </h3>
+    </div>
+
+    <!-- Building Selection Menu   -->
+    <div class="build-menu">
+        <p>Building Menu</p>
+        <i id="torii-gate" class="building fas fa-torii-gate"></i>
+        <i id="mosque" class="building fas fa-mosque"></i>
+        <i id="place-of-worship" class="building fas fa-place-of-worship"></i>
+        <i id="church" class="building fas fa-church"></i>
+        <i id="gopuram" class="building fas fa-gopuram"></i>
+        <i id="kaaba" class="building fas fa-kaaba"></i>
+        <i id="vihara" class="building fas fa-vihara"></i>
+        <i id="synagogue"></i>
+    </div>    
+
+    <!-- Your Building Area -->
+    <div class="building-area">
+      <p>Maxville</p>
+      <div id='buildingsBuilt' class="buildingsBuilt">
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
